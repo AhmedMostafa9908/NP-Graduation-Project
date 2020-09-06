@@ -8,6 +8,6 @@ In this layer we had defined all regiter addresses and created pointers that all
 # 2) Microcontroller abstraction layer:
 In this layer we have created drivers for our internal prepherals like DIO,Timers, UART.
 # 3) The Hardware Abstraction Layer:
-In this layer we made a drivers for hardwares that we use in our project like LCD, motor PWM,Switchs
+In this layer we made a drivers for hardwares that we use in our project like LCD, Motor PWM, Switches
 # 4) Application Layer:
-This layer contains our main so we use this layer to make a program that we want to excute
+This layer contains our main so we use this layer to make a program that we want to execute
