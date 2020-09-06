@@ -3,12 +3,12 @@ In  this project we use 2 atmega32 microcontrollers to implement motor speed con
 
 
 #  Implementation Details:
-In this project we have created all libraryis from scratch and apply the concept of layered architecture and static design in our design so we divide our project to 4 layers
+   In this project we have created all libraryis from scratch and apply the concept of layered architecture and static design in our design so we divide our project to 4 layers
  1) The Hardware Registers:
-In this layer we had defined all regiter addresses and created pointers that allow us to edit in registers.
+    In this layer we had defined all regiter addresses and created pointers that allow us to edit in registers.
  2) Microcontroller abstraction layer:
-In this layer we have created drivers for our internal prepherals like DIO,Timers, UART.
+    In this layer we have created drivers for our internal prepherals like DIO,Timers, UART.
  3) The Hardware Abstraction Layer:
-In this layer we made a drivers for hardwares that we use in our project like LCD, Motor PWM, Switches
+    In this layer we made a drivers for hardwares that we use in our project like LCD, Motor PWM, Switches
  4) Application Layer:
-This layer contains our main so we use this layer to make a program that we want to execute
+    This layer contains our main so we use this layer to make a program that we want to execute
