@@ -1,5 +1,5 @@
 # NP-Graduation-Project
-In this project we used 2 atmega32 microcontrollers to implement motor speed controller and printing the current speed on the LCD. So, we used UART to make the 2 microcontrollers communicate with each other. The first microcontroller operates as a UART sender. It contains 2 push buttons, one to increase speed and the other one to decrease it. On presing the push button, it sends the speed to the second microcontroller which operates as UART receiver. An LCD and a motor are connected to the second microcontroller, we control the speed of the motor using software PWM which we had implemented using Timers in CTC mode.   
+In this project we used 2 atmega32 microcontrollers to implement motor speed controller and printing the current speed on the LCD. So, we used UART to make the 2 microcontrollers communicate with each other. The first microcontroller operates as a UART sender. It contains 2 push buttons, one to increase speed and the another one to decrease it. On pressing the push button, it sends the speed to the second microcontroller which operates as UART receiver. The LCD and The motor are connected to the second microcontroller, we control the speed of the motor using software PWM which we had implemented using Timers in CTC mode.   
 
 
 #  Implementation Details:
