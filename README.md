@@ -4,7 +4,7 @@ We control the speed of the motor using software PWM which we had implemented us
 
 
 #  Implementation Details:
-   In this project we have created all libraries from scratch and applied the concept of layered architecture and static design in our design as we divide our project to 4 layers
+   In this project we created all libraries from scratch and applied the concept of layered architecture and static design in our design as we divide our project to 4 layers
  ## 1) The Hardware Registers:
     In this layer we define all regiter addresses and create pointers that allow us to edit in registers.
  ## 2) Microcontroller abstraction layer:
